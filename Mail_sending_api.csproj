@@ -7,7 +7,54 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="bin\Debug\net8.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net8.0\appsettings.json" />
+    <Content Include="bin\Debug\net8.0\Mail_sending_api.deps.json" />
+    <Content Include="bin\Debug\net8.0\Mail_sending_api.runtimeconfig.json" />
+    <Content Include="bin\Debug\net8.0\Mail_sending_api.staticwebassets.endpoints.json" />
+    <Content Include="bin\Release\net8.0\appsettings.Development.json" />
+    <Content Include="bin\Release\net8.0\appsettings.json" />
+    <Content Include="bin\Release\net8.0\Mail_sending_api.deps.json" />
+    <Content Include="bin\Release\net8.0\Mail_sending_api.runtimeconfig.json" />
+    <Content Include="bin\Release\net8.0\Mail_sending_api.staticwebassets.endpoints.json" />
+    <Content Include="bin\Release\net8.0\publish\appsettings.Development.json" />
+    <Content Include="bin\Release\net8.0\publish\appsettings.json" />
+    <Content Include="bin\Release\net8.0\publish\Mail_sending_api.deps.json" />
+    <Content Include="bin\Release\net8.0\publish\Mail_sending_api.runtimeconfig.json" />
+    <Content Include="bin\Release\net8.0\publish\Mail_sending_api.staticwebassets.endpoints.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net8.0\Mail_sending_api.dll" />
+    <None Include="bin\Debug\net8.0\Mail_sending_api.exe" />
+    <None Include="bin\Debug\net8.0\Mail_sending_api.pdb" />
+    <None Include="bin\Debug\net8.0\Microsoft.OpenApi.dll" />
+    <None Include="bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="bin\Release\net8.0\Mail_sending_api.dll" />
+    <None Include="bin\Release\net8.0\Mail_sending_api.exe" />
+    <None Include="bin\Release\net8.0\Mail_sending_api.pdb" />
+    <None Include="bin\Release\net8.0\Microsoft.OpenApi.dll" />
+    <None Include="bin\Release\net8.0\publish\Mail_sending_api.dll" />
+    <None Include="bin\Release\net8.0\publish\Mail_sending_api.exe" />
+    <None Include="bin\Release\net8.0\publish\Mail_sending_api.pdb" />
+    <None Include="bin\Release\net8.0\publish\Microsoft.OpenApi.dll" />
+    <None Include="bin\Release\net8.0\publish\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Release\net8.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Release\net8.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="bin\Release\net8.0\publish\web.config" />
+    <None Include="bin\Release\net8.0\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Project Publish\" />
   </ItemGroup>
 
 </Project>
